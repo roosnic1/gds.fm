@@ -1,0 +1,22 @@
+{
+  "name": "gds.fm",
+  "version": "1.0.0",
+  "description": "GDS.FM as a Player",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/roosnic1/gds.fm",
+  "keywords": [
+    "Electron",
+    "GDS.FM",
+    "music",
+    "player",
+    "züri"
+  ],
+  "author": "Nicolas Roos",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.6.2"
+  }
+}
