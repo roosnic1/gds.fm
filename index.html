@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+
+    <script src="./player.js" charset="UTF-8"></script>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-  </body>
 
-  <script>
-    // You can also require other files to run in this process
-    require('./renderer.js')
-  </script>
+    <audio id="gdsfmPlayer" type="audio/mp3" src="http://gdsfm.out.airtime.pro:8000/gdsfm_a"></audio>
+    <button id="playButton">Play</button>
+
+    <div id="testDiv" style="width: 100px; height: 100px; background-color: blue;">
+
+    </div>
+
+  </body>
 </html>
